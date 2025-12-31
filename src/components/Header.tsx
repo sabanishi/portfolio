@@ -46,4 +46,3 @@ const Header: Component = () => {
 };
 
 export default Header;
-Header;

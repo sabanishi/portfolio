@@ -1,5 +1,6 @@
 import AboutMD from "../md/about.mdx";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function About() {
     return (
@@ -23,6 +24,7 @@ export default function About() {
                     </article>
                 </section>
             </div>
+            <Footer></Footer>
         </main>
     );
 }

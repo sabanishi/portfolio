@@ -1,5 +1,6 @@
 import { A } from "@solidjs/router";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function NotFound() {
     return (
@@ -17,6 +18,7 @@ export default function NotFound() {
             >
                 トップに戻る
             </A>
+            <Footer></Footer>
         </main>
     );
 }
