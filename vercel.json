@@ -3,9 +3,6 @@
     "deploymentEnabled": {
       "main": false
     },
-    "rewrites": [
-      { "source": "/", "destination": "/" },
-      { "source": "/(.*)", "destination": "/" }
-    ]
+    "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }]
   }
 }
