@@ -1,9 +1,103 @@
-## About
+import Icon from "/icon.jpg";
+import ProfileCard from "../components/ProfileCard";
+import SkillCard from "../components/SkillCard";
+import Skill from "../components/Skill";
+import SkillStars from "../components/SkillStars.tsx";
 
-ゲーム制作とお絵描きしてます〜
+<div class="flex w-full flex-col items-center gap-8 md:flex-row md:items-start">
+    <div class="flex-shrink-0">
+        <img
+            src={Icon}
+            class="aspect-square w-[120px] rounded-full md:w-[160px]"
+            alt="sabanishi-logo"
+        />
+    </div>
 
-## Skills
+    <div class="w-full">
+        ## @sabanishi
 
-- Unity
-- C#
-- Java
+        佐久川 泰輔 / Taisuke Sakugawa
+
+        ゲーム作ってます．
+        たまにお絵描きもしています．
+    </div>
+</div>
+
+## 私について
+
+<div class="mt-10 grid w-full grid-cols-1 gap-5 md:grid-cols-2">
+    <ProfileCard title="大学">
+        東京科学大学大学院 修士1年
+    </ProfileCard>
+
+    <ProfileCard title="所属">
+        情報理工学院 情報工学コース 林研究室
+    </ProfileCard>
+
+    <ProfileCard title="専攻">
+        ソフトウェア工学
+    </ProfileCard>
+
+    <ProfileCard title="サークル">
+        デジタル創作同好会 traP
+    </ProfileCard>
+
+    <ProfileCard title="趣味">
+        ゲーム制作/プレイ、お絵描き、読書、散歩
+    </ProfileCard>
+</div>
+
+## 知っていること
+
+<div class="mt-4">
+    <ul class="mt-3 text-sm text-slate-700">
+        <div>
+            <div class="flex items-center gap-6">
+                <SkillStars level={3} />
+                <span class="text-slate-700">
+          そこそこわかる（日常的に使っている）
+        </span>
+            </div>
+
+            <div class="flex items-center gap-6">
+                <SkillStars level={2} />
+                <span class="text-slate-700">
+          なんとなくわかる（その技術で何か作ったことがある）
+        </span>
+            </div>
+
+            <div class="flex items-center gap-6">
+                <SkillStars level={1} />
+                <span class="text-slate-700">
+          かじっただけ（少し触ったことがある）
+        </span>
+            </div>
+        </div>
+    </ul>
+</div>
+
+<div class="mt-8 grid grid-cols-1 gap-6 lg:grid-cols-3">
+    <SkillCard title="言語">
+        <Skill name="C#" level={3} />
+        <Skill name="Java" level={3} />
+        <Skill name="Python" level={2} />
+        <Skill name="JavaScript / TypeScript（SolidJS）" level={2} />
+        <Skill name="HTML / CSS" level={2} />
+        <Skill name="Go" level={1} />
+        <Skill name="C++" level={1} />
+        <Skill name="C" level={1} />
+        <Skill name="Assembly" level={1} />
+        <Skill name="Japanese" level={3} />
+    </SkillCard>
+
+    <SkillCard title="ゲームエンジン">
+        <Skill name="Unity" level={3} />
+        <Skill name="Unreal Engine" level={1} />
+    </SkillCard>
+
+    <SkillCard title="インフラ">
+        <Skill name="Firebase（Firestore / RTDB / Functions / Storage）" level={3} />
+        <Skill name="GitHub Actions" level={2} />
+        <Skill name="AWS（S3 / DynamoDB）" level={1} />
+    </SkillCard>
+</div>
