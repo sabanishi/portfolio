@@ -1,8 +1,10 @@
 import AboutMD from "../md/about.mdx";
+import Header from "../components/Header";
 
 export default function About() {
     return (
         <main class="min-h-screen px-6 py-12 sm:px-10">
+            <Header></Header>
             <div class="mx-auto w-full max-w-3xl">
                 <section class="rounded-2xl border border-slate-200 bg-white/70 p-6 shadow-sm backdrop-blur sm:p-10">
                     <article

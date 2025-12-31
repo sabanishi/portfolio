@@ -1,13 +1,13 @@
 import { Router, Route } from "@solidjs/router";
-import Top from "./routes/top";
 import About from "./routes/about";
+import Background from "./routes/background";
 import Works from "./routes/works";
 
 function Routing() {
     return (
         <Router>
-            <Route path="/" component={Top} />
-            <Route path="/about" component={About} />
+            <Route path="/" component={About} />
+            <Route path="/background" component={Background} />
             <Route path="/works" component={Works} />
         </Router>
     );
