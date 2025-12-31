@@ -4,9 +4,9 @@ import {A} from "@solidjs/router";
 const Header: Component = () => {
     return (
         <div>
-            <A href="/portfolio">Top</A>
-            <A href="/portfolio/about">About</A>
-            <A href="/portfolio/works">Works</A>
+            <A href="/">Top</A>
+            <A href="/about">About</A>
+            <A href="/works">Works</A>
         </div>
     );
 };
