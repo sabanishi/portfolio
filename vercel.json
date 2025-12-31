@@ -4,8 +4,8 @@
       "main": false
     },
     "rewrites": [
-      { "source": "/portfolio", "destination": "/" },
-      { "source": "/portfolio/(.*)", "destination": "/" }
+      { "source": "/", "destination": "/" },
+      { "source": "/(.*)", "destination": "/" }
     ]
   }
 }
