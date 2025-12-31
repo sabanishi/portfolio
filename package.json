@@ -1,6 +1,6 @@
 {
-  "name": "vite-template-solid",
-  "version": "0.0.0",
+  "name": "portfolio",
+  "version": "0.0.1",
   "description": "",
   "type": "module",
   "scripts": {
@@ -19,7 +19,11 @@
     "vite-plugin-solid": "^2.11.6"
   },
   "dependencies": {
+    "@mdx-js/mdx": "^3.1.1",
+    "@mdx-js/rollup": "^3.1.1",
     "@solidjs/router": "^0.15.3",
+    "@types/mdx": "^2.0.13",
+    "remark-gfm": "^4.0.1",
     "solid-js": "^1.9.5"
   }
 }
