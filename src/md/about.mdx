@@ -2,7 +2,7 @@ import Icon from "/icon.jpg";
 import ProfileCard from "../components/ProfileCard";
 import SkillCard from "../components/SkillCard";
 import Skill from "../components/Skill";
-import SkillStars from "../components/SkillStars.tsx";
+import SkillStars from "../components/SkillStars";
 
 <div class="flex w-full flex-col items-center gap-8 md:flex-row md:items-start">
     <div class="flex-shrink-0">
@@ -50,7 +50,7 @@ import SkillStars from "../components/SkillStars.tsx";
 ## 知っていること
 
 <div class="mt-4">
-    <ul class="mt-3 text-sm text-slate-700">
+    <div class="mt-3 text-sm text-slate-700">
         <div>
             <div class="flex items-center gap-6">
                 <SkillStars level={3} />
@@ -73,7 +73,7 @@ import SkillStars from "../components/SkillStars.tsx";
         </span>
             </div>
         </div>
-    </ul>
+    </div>
 </div>
 
 <div class="mt-8 grid grid-cols-1 gap-6 lg:grid-cols-3">
@@ -81,7 +81,7 @@ import SkillStars from "../components/SkillStars.tsx";
         <Skill name="C#" level={3} />
         <Skill name="Java" level={3} />
         <Skill name="Python" level={2} />
-        <Skill name="JavaScript / TypeScript（SolidJS）" level={2} />
+        <Skill name="JavaScript / TypeScript" level={2} />
         <Skill name="HTML / CSS" level={2} />
         <Skill name="Go" level={1} />
         <Skill name="C++" level={1} />
@@ -90,14 +90,19 @@ import SkillStars from "../components/SkillStars.tsx";
         <Skill name="Japanese" level={3} />
     </SkillCard>
 
-    <SkillCard title="ゲームエンジン">
+    <SkillCard title="ゲームエンジン・ライブラリ">
         <Skill name="Unity" level={3} />
         <Skill name="Unreal Engine" level={1} />
+        <Skill name="UniRx" level={3} />
+        <Skill name="UniTask" level={3} />
+        <Skill name="Siv3D" level={1} />
+        <Skill name="Solid JS" level={2} />
     </SkillCard>
 
     <SkillCard title="インフラ">
         <Skill name="Firebase（Firestore / RTDB / Functions / Storage）" level={3} />
         <Skill name="GitHub Actions" level={2} />
+        <Skill name="Vercel" level={2} />
         <Skill name="AWS（S3 / DynamoDB）" level={1} />
     </SkillCard>
 </div>
