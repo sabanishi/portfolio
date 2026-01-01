@@ -27,13 +27,6 @@ const Header: Component = () => {
                     About
                 </A>
                 <A
-                    href="/background"
-                    class="text-slate-600 transition hover:text-slate-900"
-                    activeClass="font-semibold text-slate-900"
-                >
-                    Background
-                </A>
-                <A
                     href="/works"
                     class="text-slate-600 transition hover:text-slate-900"
                     activeClass="font-semibold text-slate-900"
