@@ -6,7 +6,7 @@ export const CONTENTS: ContentData[] = [
         title: "Prometary",
         date: "2024/11/3",
         thumbnail: "prometary_0.PNG",
-        media: ["prometary_0.PNG","prometary_1.PNG","prometary_2.PNG","prometary_3.PNG"],
+        media: ["prometary_1.PNG","prometary_2.PNG","prometary_3.PNG","prometary_4.PNG"],
         description:"株式会社CoilSiteで制作に携わったゲーム。\nUnityエンジニアとしての業務を中心に、ユーザーデータを管理するためのFirebaseの運用や、自動ビルド機能の整備なども担当しています。",
         links: [
             {
@@ -40,7 +40,7 @@ export const CONTENTS: ContentData[] = [
         title: "ARP",
         date: "2023/12/17",
         thumbnail: "arp_0.PNG",
-        media: ["arp_0.PNG", "arp_1.PNG", "arp_2.PNG"],
+        media: ["arp_0.PNG", "arp_1.PNG", "arp_2.PNG", "https://www.youtube.com/watch?v=5yICzq60zt0"],
         description:"2023年に部内ハッカソンにて製作した２人協力非対称型パズルゲーム。\n" +
             "シェーダー以外のほぼ全てのプログラムと、レベルデザインの一部を担当しました。",
         links: [
