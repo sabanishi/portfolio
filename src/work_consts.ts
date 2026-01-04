@@ -7,7 +7,9 @@ export const CONTENTS: ContentData[] = [
         date: "2024/11/3",
         thumbnail: "prometary_0.PNG",
         media: ["prometary_1.PNG","prometary_2.PNG","prometary_3.PNG","prometary_4.PNG"],
-        description:"株式会社CoilSiteで制作に携わったゲーム。\nUnityエンジニアとしての業務を中心に、ユーザーデータを管理するためのFirebaseの運用や、自動ビルド機能の整備なども担当しています。",
+        description:"LLMを活用してオリジナルのキャラクターを生成し、キャラクター同士の交流を楽しむゲーム。\n" +
+            "株式会社CoilSiteにて制作に携わっています。\n" +
+            "Unityエンジニアとしての業務を中心に、ユーザーデータを管理するためのFirebaseの運用や、自動ビルド機能の整備なども担当しています。",
         links: [
             {
                 name: "App Store",
@@ -41,7 +43,7 @@ export const CONTENTS: ContentData[] = [
         date: "2023/12/17",
         thumbnail: "arp_0.PNG",
         media: ["arp_0.PNG", "arp_1.PNG", "arp_2.PNG", "https://www.youtube.com/watch?v=5yICzq60zt0"],
-        description:"2023年に部内ハッカソンにて製作した２人協力非対称型パズルゲーム。\n" +
+        description:"2023年にサークル内ハッカソンにて製作した２人協力非対称型パズルゲーム。\n" +
             "シェーダー以外のほぼ全てのプログラムと、レベルデザインの一部を担当しました。",
         links: [
             {
@@ -102,7 +104,7 @@ export const CONTENTS: ContentData[] = [
         media: ["kiritan_0.PNG", "kiritan_1.PNG", "kiritan_2.PNG"],
         description:"東北応援キャラクターの一人「東北きりたん」の二次創作ゲーム。\n" +
             "2週間ほどで製作しました。\n" +
-            "簡易的なパズルエディタをUnityのTilemapを用いて自作し、効率的にレベルデザインを行いました。",
+            "ゲーム完成後にニコニコ動画に動画を投稿してみました。",
         links: [
             {
                 name: "GitHubリポジトリ",
@@ -111,6 +113,104 @@ export const CONTENTS: ContentData[] = [
             {
                 name: "ゲームリンク",
                 url: "https://sabanishi.github.io/KiritanPazzle",
+            }
+        ]
+    },
+    {
+        id: "box",
+        title: "ハコぶちゃん",
+        date: "2022/8/1",
+        thumbnail: "box_0.PNG",
+        media: ["box_0.PNG", "box_1.PNG", "box_2.PNG", "box_3.PNG", "https://www.youtube.com/watch?v=5yICzq60zt0"],
+        description:"箱を運ぶパズルゲーム。\n" +
+            "マリオメーカーのようなパズル製作機能を実装し、ユーザーが作ったパズルを共有できる機能を実装しました。\n" +
+            "また、このゲームは第15回Game^3に出展しました。",
+        links: [
+            {
+                name: "GitHubリポジトリ",
+                url: "https://github.com/sabanishi/BoxChan",
+            },
+            {
+                name: "ゲームリンク",
+                url: "https://sabanishi.github.io/BoxChanShow/",
+            },
+            {
+                name: "第15回Game^3 HP",
+                url: "https://game3.trap.jp/15th/"
+            },
+        ]
+    },
+    {
+        id: "dear",
+        title: "Dear for Dead",
+        date: "2022/6/20",
+        thumbnail: "dear_0.PNG",
+        media: ["dear_0.PNG", "dear_1.PNG", "dear_2.PNG"],
+        description:"2023年にサークル内ハッカソンにて製作したゲーム。\n" +
+            "死体を漁って手に入れたアイテムを合成して価値の高いアイテムを生成、売却し、最終的な売却金額を競います。\n" +
+            "全体マネジメントとアイテム合成画面・シーン遷移機構などの実装を担当しました。\n" +
+            "操作方法\n" +
+            "WASD: 移動\n" +
+            "F: 死体漁り、施設に入る",
+        links: [
+            {
+                name: "ゲームリンク",
+                url: "http://main.game.hackathon23spring_18.trap.show/",
+            },
+        ]
+    },
+    {
+        id: "ichigo",
+        title: "百鬼夜行記",
+        date: "2022/6/20",
+        thumbnail: "ichigo_0.PNG",
+        media: ["ichigo_0.PNG", "ichigo_1.PNG", "ichigo_2.PNG", "ichigo_3.PNG"],
+        description:"2022年に製作した弾幕シューティングゲーム。\n" +
+            "全てのプログラムの実装と弾幕パターンの設計を担当しました。",
+        links: [
+            {
+                name: "GitHubリポジトリ",
+                url: "https://github.com/sabanishi/Ichigojam2022spring"
+            },
+            {
+                name: "ゲームリンク",
+                url: "https://sabanishi.github.io/Ichigojam2022spring/",
+            },
+        ]
+    },
+    {
+        id: "sound",
+        title: "Unityサウンドマネージャー",
+        date: "2022/2/20",
+        thumbnail: "sound_0.PNG",
+        media: ["sound_0.PNG"],
+        description:"音声を管理、再生するためのUnityライブラリ。\n" +
+            "いくつかUnityでゲームを制作した際に共通して使用するSoundManagerをパッケージ化しました。\n" +
+            "列挙型による音声指定と、列挙型の自動生成が特徴です。",
+        links: [
+            {
+                name: "GitHubリポジトリ",
+                url: "https://github.com/sabanishi/SoundManager"
+            },
+        ]
+    },
+    {
+        id: "fishing",
+        title: "サカナクラウド",
+        date: "2024/1/1",
+        thumbnail: "fishing_0.jpg",
+        media: ["fishing_0.jpg", "fishing_1.jpg", "fishing_2.jpg", "fishing_3.jpg"],
+        description:"AR空間上で魚釣りを行い、釣ったサカナをアクアリウムに入れて鑑賞するゲーム。\n" +
+            "株式会社CoilSiteにて制作に携わっていました。\n" +
+            "多言語対応、Firebaseを用いたユーザーデータの管理、アクアリウム画面でのインテリアの配置、魚の思考ロジックの実装などを担当しました。",
+        links: [
+            {
+                name: "App Store",
+                url: "https://apps.apple.com/jp/app/id6478481049",
+            },
+            {
+                name: "Google Play Store",
+                url: "https://play.google.com/store/apps/details?id=com.CoilSite.FishcloudApp&hl=ja",
             }
         ]
     },
