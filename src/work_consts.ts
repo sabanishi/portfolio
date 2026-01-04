@@ -5,8 +5,8 @@ export const CONTENTS: ContentData[] = [
         id: "prometary",
         title: "Prometary",
         date: "2024/11/3",
-        thumbnail: "prometary_0.PNG",
-        media: ["prometary_1.PNG","prometary_2.PNG","prometary_3.PNG","prometary_4.PNG"],
+        thumbnail: "prometary_0.webp",
+        media: ["prometary_1.webp","prometary_2.webp","prometary_3.webp","prometary_4.webp"],
         description:"LLMを活用してオリジナルのキャラクターを生成し、キャラクター同士の交流を楽しむゲーム。\n" +
             "株式会社CoilSiteにて制作に携わっています。\n" +
             "Unityエンジニアとしての業務を中心に、ユーザーデータを管理するためのFirebaseの運用や、自動ビルド機能の整備なども担当しています。",
@@ -25,8 +25,8 @@ export const CONTENTS: ContentData[] = [
         id: "screen",
         title: "Unityシーン管理パッケージ",
         date: "2024/1/4",
-        thumbnail: "screen_0.PNG",
-        media: ["screen_0.PNG"],
+        thumbnail: "screen_0.webp",
+        media: ["screen_0.webp"],
         description:"シーン管理を支援するためのUnityライブラリ。\n" +
             "世には高性能なシーン管理機能がたくさんありますが、1)内部構造を理解したい 2)自分で実装した方が要件に応じた改善が容易 の2点から車輪の再発明をしました。\n" +
             "シーン間のデータの受け渡しが容易な点、シーンの親子関係を構築できる点が特徴です。",
@@ -41,8 +41,8 @@ export const CONTENTS: ContentData[] = [
         id: "arp",
         title: "ARP",
         date: "2023/12/17",
-        thumbnail: "arp_0.PNG",
-        media: ["arp_0.PNG", "arp_1.PNG", "arp_2.PNG", "https://www.youtube.com/watch?v=5yICzq60zt0"],
+        thumbnail: "arp_0.webp",
+        media: ["arp_0.webp", "arp_1.webp", "arp_2.webp", "https://www.youtube.com/watch?v=5yICzq60zt0"],
         description:"2023年にサークル内ハッカソンにて製作した２人協力非対称型パズルゲーム。\n" +
             "シェーダー以外のほぼ全てのプログラムと、レベルデザインの一部を担当しました。",
         links: [
@@ -64,8 +64,8 @@ export const CONTENTS: ContentData[] = [
         id: "portfolio",
         title: "ポートフォリオ",
         date: "2026/1/1",
-        thumbnail: "portfolio_0.PNG",
-        media: ["portfolio_0.PNG"],
+        thumbnail: "portfolio_0.webp",
+        media: ["portfolio_0.webp"],
         description:"本ポートフォリオサイト。\n" +
             "SolidJSとTailwindを用いて作成し、Vercelでホスティングしています。",
         links: [
@@ -79,8 +79,8 @@ export const CONTENTS: ContentData[] = [
         id: "tami",
         title: "デスクトップマスコット",
         date: "2024/6/19",
-        thumbnail: "tami_0.gif",
-        media: ["tami_0.gif", "tami_1.PNG"],
+        thumbnail: "tami_0.webp",
+        media: ["tami_0.gif", "tami_1.webp"],
         description:"かわいいデスクトップマスコット。\n" +
             "マスコットとチャットできる他、任意のGitリポジトリにコミットするとマスコットが喜んでくれます。\n" +
             "チャット機能にはOpenAI APIを用いています。\n" +
@@ -100,8 +100,8 @@ export const CONTENTS: ContentData[] = [
         id: "kiritan",
         title: "東北きりたんの二次創作ゲーム",
         date: "2022/2/13",
-        thumbnail: "kiritan_0.PNG",
-        media: ["kiritan_0.PNG", "kiritan_1.PNG", "kiritan_2.PNG"],
+        thumbnail: "kiritan_0.webp",
+        media: ["kiritan_0.webp", "kiritan_1.webp", "kiritan_2.webp"],
         description:"東北応援キャラクターの一人「東北きりたん」の二次創作ゲーム。\n" +
             "2週間ほどで製作しました。\n" +
             "ゲーム完成後にニコニコ動画に動画を投稿してみました。",
@@ -120,8 +120,8 @@ export const CONTENTS: ContentData[] = [
         id: "box",
         title: "ハコぶちゃん",
         date: "2022/8/1",
-        thumbnail: "box_0.PNG",
-        media: ["box_0.PNG", "box_1.PNG", "box_2.PNG", "box_3.PNG", "https://www.youtube.com/watch?v=5yICzq60zt0"],
+        thumbnail: "box_0.webp",
+        media: ["box_0.webp", "box_1.webp", "box_2.webp", "box_3.webp", "https://www.youtube.com/watch?v=5yICzq60zt0"],
         description:"箱を運ぶパズルゲーム。\n" +
             "マリオメーカーのようなパズル製作機能を実装し、ユーザーが作ったパズルを共有できる機能を実装しました。\n" +
             "また、このゲームは第15回Game^3に出展しました。",
@@ -144,8 +144,8 @@ export const CONTENTS: ContentData[] = [
         id: "dear",
         title: "Dear for Dead",
         date: "2022/6/20",
-        thumbnail: "dear_0.PNG",
-        media: ["dear_0.PNG", "dear_1.PNG", "dear_2.PNG"],
+        thumbnail: "dear_0.webp",
+        media: ["dear_0.webp", "dear_1.webp", "dear_2.webp"],
         description:"2023年にサークル内ハッカソンにて製作したゲーム。\n" +
             "死体を漁って手に入れたアイテムを合成して価値の高いアイテムを生成、売却し、最終的な売却金額を競います。\n" +
             "全体マネジメントとアイテム合成画面・シーン遷移機構などの実装を担当しました。\n" +
@@ -163,8 +163,8 @@ export const CONTENTS: ContentData[] = [
         id: "ichigo",
         title: "百鬼夜行記",
         date: "2022/6/20",
-        thumbnail: "ichigo_0.PNG",
-        media: ["ichigo_0.PNG", "ichigo_1.PNG", "ichigo_2.PNG", "ichigo_3.PNG"],
+        thumbnail: "ichigo_0.webp",
+        media: ["ichigo_0.webp", "ichigo_1.webp", "ichigo_2.webp", "ichigo_3.webp"],
         description:"2022年に製作した弾幕シューティングゲーム。\n" +
             "全てのプログラムの実装と弾幕パターンの設計を担当しました。",
         links: [
@@ -182,8 +182,8 @@ export const CONTENTS: ContentData[] = [
         id: "sound",
         title: "Unityサウンドマネージャー",
         date: "2022/2/20",
-        thumbnail: "sound_0.PNG",
-        media: ["sound_0.PNG"],
+        thumbnail: "sound_0.webp",
+        media: ["sound_0.webp"],
         description:"音声を管理、再生するためのUnityライブラリ。\n" +
             "いくつかUnityでゲームを制作した際に共通して使用するSoundManagerをパッケージ化しました。\n" +
             "列挙型による音声指定と、列挙型の自動生成が特徴です。",
@@ -198,8 +198,8 @@ export const CONTENTS: ContentData[] = [
         id: "fishing",
         title: "サカナクラウド",
         date: "2024/1/1",
-        thumbnail: "fishing_0.jpg",
-        media: ["fishing_0.jpg", "fishing_1.jpg", "fishing_2.jpg", "fishing_3.jpg"],
+        thumbnail: "fishing_0.webp",
+        media: ["fishing_0.webp", "fishing_1.webp", "fishing_2.webp", "fishing_3.webp"],
         description:"AR空間上で魚釣りを行い、釣ったサカナをアクアリウムに入れて鑑賞するゲーム。\n" +
             "株式会社CoilSiteにて制作に携わっていました。\n" +
             "多言語対応、Firebaseを用いたユーザーデータの管理、アクアリウム画面でのインテリアの配置、魚の思考ロジックの実装などを担当しました。",

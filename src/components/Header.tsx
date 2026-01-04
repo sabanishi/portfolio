@@ -1,6 +1,6 @@
 import { Component } from "solid-js";
 import { A } from "@solidjs/router";
-import Icon from "/icon.jpg";
+import Icon from "/icon.webp";
 
 const Header: Component = () => {
     return (
