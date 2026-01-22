@@ -1,5 +1,3 @@
-# sabanishi.dev
+# さばにしのポートフォリオ
 
-さばにしのPortfolio
-
-https://sabanishi.github.io/portfolio/
+[サイトURL](https://www.sabanishi.com/)
