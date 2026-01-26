@@ -29,17 +29,17 @@ const Footer : Component = () => {
 
             <div class="flex justify-end">
                 <IconLink
-                    href="https://github.com/yourname"
+                    href="https://github.com/sabanishi"
                     label="GitHub"
                     iconClass="ri-github-fill"
                 />
                 <IconLink
-                    href="https://twitter.com/yourname"
+                    href="https://x.com/Saba_Nishi"
                     label="Twitter"
                     iconClass="ri-twitter-x-fill"
                 />
                 <IconLink
-                    href="https://discord.com/users/yourid"
+                    href="https://discordapp.com/users/818842465905147955"
                     label="Discord"
                     iconClass="ri-discord-fill"
                 />
