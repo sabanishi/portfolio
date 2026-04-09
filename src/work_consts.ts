@@ -42,7 +42,7 @@ export const CONTENTS: ContentData[] = [
         title: "ARP",
         date: "2023/12/17",
         thumbnail: "arp_0.webp",
-        media: ["arp_0.webp", "arp_1.webp", "arp_2.webp", "https://www.youtube.com/watch?v=5yICzq60zt0"],
+        media: ["arp_0.webp", "arp_1.webp", "arp_2.webp"],
         description:"2023年にサークル内ハッカソンにて製作した２人協力非対称型パズルゲーム。\n" +
             "シェーダー以外のほぼ全てのプログラムと、レベルデザインの一部を担当しました。",
         links: [
@@ -121,7 +121,7 @@ export const CONTENTS: ContentData[] = [
         title: "ハコぶちゃん",
         date: "2022/8/1",
         thumbnail: "box_0.webp",
-        media: ["box_0.webp", "box_1.webp", "box_2.webp", "box_3.webp", "https://www.youtube.com/watch?v=5yICzq60zt0"],
+        media: ["box_0.webp", "box_1.webp", "box_2.webp", "box_3.webp"],
         description:"箱を運ぶパズルゲーム。\n" +
             "マリオメーカーのようなパズル製作機能を実装し、ユーザーが作ったパズルを共有できる機能を実装しました。\n" +
             "また、このゲームは第15回Game^3に出展しました。",
