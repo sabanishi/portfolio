@@ -1,9 +1,10 @@
-import type { Component } from "solid-js";
+import type { Component, JSX } from "solid-js";
+import { Icon } from "@iconify-icon/solid";
 
 const IconLink = (props: {
     href: string;
     label: string;
-    iconClass: string;
+    children: JSX.Element;
 }) => (
     <a
         href={props.href}
@@ -18,7 +19,7 @@ const IconLink = (props: {
       focus:outline-none focus:ring-2 focus:ring-white/40
     "
     >
-        <i class={props.iconClass}></i>
+        {props.children}
     </a>
 );
 
@@ -31,18 +32,30 @@ const Footer : Component = () => {
                 <IconLink
                     href="https://github.com/sabanishi"
                     label="GitHub"
-                    iconClass="ri-github-fill"
-                />
+                >
+                    <i class="ri-github-fill"></i>
+                </IconLink>
+
                 <IconLink
                     href="https://x.com/Saba_Nishi"
                     label="Twitter"
-                    iconClass="ri-twitter-x-fill"
-                />
+                    >
+                    <i class="ri-twitter-x-fill"></i>
+                </IconLink>
+
                 <IconLink
                     href="https://discordapp.com/users/818842465905147955"
                     label="Discord"
-                    iconClass="ri-discord-fill"
-                />
+                >
+                    <i class="ri-discord-fill"></i>
+                </IconLink>
+
+                <IconLink
+                    href="https://scrapbox.io/sabanishi/"
+                    label="Scrapbox"
+                >
+                    <Icon icon="simple-icons:scrapbox" />
+                </IconLink>
             </div>
         </footer>
     );
